@@ -89,9 +89,3 @@ function filterByName(){
   get("results").innerHTML = subdata.length + " results found.";
   get("output").innerHTML = cards( subdata );
 }
-
-
-
-
-
-
