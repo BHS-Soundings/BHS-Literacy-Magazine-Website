@@ -17,7 +17,8 @@ h1{
   
 }
 .childDiv{
-  flex: 1; 
+  flex: 1;
+  display:flex;
   padding: 10px; 
   margin: 5pt; 
   background-repeat: no-repeat;
@@ -35,6 +36,10 @@ h1{
 .s1{
   background-image: url(s1.png); 
   background-position: center bottom;
+}
+.s1 a{
+  margin-left:10px;
+  margin-right:10px;
 }
 .s2{
   background-image: url(s2.png); 
