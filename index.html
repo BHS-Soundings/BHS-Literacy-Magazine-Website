@@ -3,31 +3,32 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>BHS Literary Magazine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BHS Literary Magazine</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="index.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
-<nav>
-  <!--SIDEBAR NAV-->
-  <ul class="sidebar">
-    <li onclick="hideSidebar()"><a href="#"><img src="Logos/x.png" alt="Close button"></a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="current-mag.html">Current Magazine</a></li>
-    <li><a href="Publications.html">Publications</a></li>
-    <li><a href="about-us.html">About Us</a></li>
-    
-  </ul>
-   <!--HORIZONTAL NAV-->
+  <nav>
+    <!--SIDEBAR NAV-->
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><img src="Logos/x.png" alt="Close button"></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="current-mag.html">Current Magazine</a></li>
+      <li><a href="Publications.html">Publications</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+
+    </ul>
+    <!--HORIZONTAL NAV-->
     <ul>
-      <li> 
+      <li>
         <a href="index.html">
-          <div class="S_Logo"> 
+          <div class="S_Logo">
             <!--<img src="Logos/Soundings.png" style="max-height: 50px;aspect-ratio: 1; max-width:170px; " alt="Soundings Logo">-->
             <h1 style="margin:0;font-family: Arial, Helvetica, sans-serif;">Soundings</h1>
-          </div> 
+          </div>
         </a>
       </li>
       <li class="hideOnMobile"><a href="index.html">Home</a></li>
@@ -38,126 +39,145 @@
     </ul>
   </nav>
 
-<main> 
+  <main>
 
-  <section id="carousel" class="carouselBack">
-  <div class="slideshow-container">
+    <section id="carousel" class="carouselBack">
+      <div class="slideshow-container">
 
-   <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="Slideshow_Imgs/1.png" style="width:100%">
-      <div class="text"> <!--Caption one here--> </div>
-    </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="Slideshow_Imgs/2.png" style="width:100%">
-    <div class="text"> <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soundings@baysidehighschool.org" target="_blank" style="background-color: floralwhite;text-decoration: none;color: black;"> Click here to email us !</a> </div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="Slideshow_Imgs/3.png" style="width:100%">
-    <div class="text"><!--Caption three here--></div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  </div>
-  <br>
-
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>
-  </section> 
-
-
-<hr> 
-  <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soundings@baysidehighschool.org" target="_blank" class="center" style=" color: black; text-align: center;"><h2> Submitting Work? Click here to email us!</h2></a>
-<hr>
-  
-<section>  <!--COMING SOON ANNOUNCMENTS SECTION--> 
-  <div id="ComingSoon" class="centered"> 
-      <h1> Spring Edition Coming Soon!</h1>
-      <h5> For any questions, email us at soundings@baysidehighschool.org</h5>
-  </div> 
-  
-  <div class="flex-container">
-    <div class="leftColumn"> 
-      
-      <section style="display: flex; flex-direction: column; ">
-        <div id="ComingSoonPoster"> 
-          <img id="CMPoster" src="AnnouncementSection/ComingSoonPoster.png"> 
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="Slideshow_Imgs/1.png" style="width:100%">
+          <div class="text">
+            <!--Caption one here-->
+          </div>
         </div>
-      </section>
 
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="Slideshow_Imgs/2.png" style="width:100%">
+          <div class="text"> <a
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soundings@baysidehighschool.org"
+              target="_blank" style="background-color: floralwhite;text-decoration: none;color: black;"> Click here to
+              email us !</a> </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="Slideshow_Imgs/3.png" style="width:100%">
+          <div class="text">
+            <!--Caption three here-->
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+
+
+    <hr>
+    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soundings@baysidehighschool.org"
+      target="_blank" class="center" style=" color: black; text-align: center;">
+      <h2> Submitting Work? Click here to email us!</h2>
+    </a>
+    <hr>
+
+    <section>
+      <!--COMING SOON ANNOUNCMENTS SECTION-->
+      <div id="ComingSoon" class="centered">
+        <h1> Our Spring Edition Is Out!</h1>
+        <h5> For any questions, email us at soundings@baysidehighschool.org</h5>
+      </div>
+
+      <div class="flex-container">
+        <div class="leftColumn">
+
+          <section style="display: flex; flex-direction: column;">
+            <div id="ComingSoonPoster">
+              <!--Note (1): WHen the contest boxes/right column is on [display: none], [style="display:block; margin-left: auto; margin-right: auto;] is enabled to center the announcments banner -->
+              <img style="display:block; margin-left: auto; margin-right: auto;" id="CMPoster"
+                src="AnnouncementSection/Box1.jpg">
+            </div>
+          </section>
+
+        </div>
+
+        <!--Note (2): Contenst boxes/ art and writing oppurtunites are temporiarily on [display: none] -->
+        <div class="rightColumn" style="display: none;""> 
+       <div class=" rightColumnBox1">
+          <img class="boxImg" src="AnnouncementSection/Box1.jpg">
+        </div>
+        <div class="rightColumnBox2"> <img class="boxImg" src="AnnouncementSection/Box2.png"> </div>
+        <div class="rightColumnBox3"> <img class="boxImg" src="AnnouncementSection/Box3.png"> </div>
+      </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <img src="Logos/Soundings.png" style="max-height: 90px;aspect-ratio: 1; max-width:279px; " alt="Soundings Logo">
+      <p class="whiteText">Soundings, Literary and Art Magazine, has been a tradition at Bayside High School dating back
+        as far as 1937.</p>
     </div>
+    <ul class="footer-right">
 
-    <div class="rightColumn"> 
-
-       <div class="rightColumnBox1">
-         <img class="boxImg"src="AnnouncementSection/Box1.jpg">   </div> 
-       <div class="rightColumnBox2"> <img class="boxImg"src="AnnouncementSection/Box2.png"> </div>
-       <div class="rightColumnBox3"> <img class="boxImg"src="AnnouncementSection/Box3.png"> </div>
-
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-
-
-  
-</section>
-  
-
-  
-</main> 
-
-<footer class="footer">
-  <div class="footer-left">
-    <img src="Logos/Soundings.png" style="max-height: 90px;aspect-ratio: 1; max-width:279px; " alt="Soundings Logo"> <p class="whiteText">Soundings, Literary and Art Magazine, has been a tradition at Bayside High School dating back as far as 1937.</p>
-  </div>
-    <ul class="footer-right"> 
-
-    <li>
-      <h2>Publications</h2>
+      <li>
+        <h2>Publications</h2>
         <ul class="box">
           <li><a href="current-mag.html">Current Edition</a></li>
           <li><a href="Publications.html">Past Editions</a></li>
           <li><a href="https://forms.gle/grF3QTuSG9CDaQ9T7">Website Feedback</a></li>
         </ul>
-    </li>
+      </li>
 
       <li class="features">
         <h2>About Us</h2>
-          <ul class="box">
-            <li><a href="about-us.html">Meet the Team</a></li>
-            <li><a href="https://www.instagram.com/soundingsbhs/?igshid=MzRlODBiNWFlZA%3D%3D">Instagram</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soundings@baysidehighschool.org">Email us: soundings@baysidehighschool.org</a></li>
-          </ul>
+        <ul class="box">
+          <li><a href="about-us.html">Meet the Team</a></li>
+          <li><a href="https://www.instagram.com/soundingsbhs/?igshid=MzRlODBiNWFlZA%3D%3D">Instagram</a></li>
+          <li><a
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=soundings@baysidehighschool.org">Email
+              us: soundings@baysidehighschool.org</a></li>
+        </ul>
       </li>
 
       <li class="features">
         <h2>Useful Links</h2>
-          <ul class="box">
-            <li><a href="https://docs.google.com/document/d/11ywypShimWV8zuIcFY4tmghffdeh-wNVQPGMss10wvU/edit">Media Consent Form</a></li>
-            <li><a href="https://soundingsbhs.wixsite.com/bayside-high-school/4">2022-2023 Literary Magazine Website</a></li>
-            <li><a href="index.html">Announcements/Events</a></li>
-          </ul>
+        <ul class="box">
+          <li><a href="https://docs.google.com/document/d/11ywypShimWV8zuIcFY4tmghffdeh-wNVQPGMss10wvU/edit">Media
+              Consent Form</a></li>
+          <li><a href="https://soundingsbhs.wixsite.com/bayside-high-school/4">2022-2023 Literary Magazine Website</a>
+          </li>
+          <li><a href="index.html">Announcements/Events</a></li>
+        </ul>
       </li>
-      </ul>
-        <div class="footer-bottom"> 
-        <p> All rights reserved </p>
-        </div>
+    </ul>
+    <div class="footer-bottom">
+      <p> All rights reserved </p>
+    </div>
   </footer>
 
 
@@ -175,10 +195,10 @@
 
 
 
-  
+
   <script src="script.js"></script>
 
-  
+
 </body>
 
 </html>
